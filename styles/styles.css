@@ -196,6 +196,44 @@ footer .social-links a:hover {
   color: var(--primary-color);
 }
 
+.content-container {
+  padding: 100px 20px;
+}
+
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content {
+  margin: 30px;
+}
+
+.technologies-icons {
+  padding: 20px;
+  color: var(--primary-color);
+  margin-left: 5px;
+  font-size: 60px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
@@ -208,5 +246,9 @@ footer .social-links a:hover {
 
   .project-description {
     padding: 5px;
+  }
+
+  .technologies-icons {
+    font-size: 30px;
   }
 }
