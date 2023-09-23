@@ -234,6 +234,10 @@ footer .social-links a:hover {
   font-size: 60px;
 }
 
+button .btn-branding {
+  padding: 5px 10px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
