@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #bf7506;
-  --secondary-color: #dd9c3c;
-  --third-color: #f4debe;
+  --primary-color: #113f67;
+  --secondary-color: #38598b;
+  --third-color: #a2a8d3;
   --dark-color: #211b12;
   --dark500-color: #83807c;
   --dark100-color: #e7e6e4;
@@ -102,7 +102,7 @@ footer .email-link:hover {
 
 footer .social-links a {
   margin: 0 20px;
-  color: var(--dark-color);
+  color: var(--dark100-color);
   background: var(--primary-color);
   padding: 10px 15px;
   font-size: 18px;
@@ -118,6 +118,11 @@ footer .btn-branding:hover {
 footer .social-links a:hover {
   color: white;
   background: var(--secondary-color);
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
 }
 
 .project-description ul {
@@ -168,11 +173,6 @@ footer .social-links a:hover {
 .btn-branding:hover {
   color: var(--primary-color);
   border: 1.5px solid var(--primary-color);
-}
-
-.design-border {
-  border: 4px solid var(--secondary-color);
-  border-radius: 8px;
 }
 
 .project-description {
@@ -245,6 +245,10 @@ button .btn-branding {
   padding: 5px 10px;
 }
 
+.img-card {
+  border: 3px solid var(--primary-color);
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 40px;
@@ -261,5 +265,10 @@ button .btn-branding {
 
   .technologies-icons {
     font-size: 30px;
+  }
+
+  .design-border {
+    border: 4px solid var(--secondary-color);
+    border-radius: 8px;
   }
 }
